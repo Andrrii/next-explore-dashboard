@@ -1,0 +1,27 @@
+{
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+
+  // Formatting code using prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Formatting when saving a file
+  "editor.formatOnSave": true,
+
+  // Check spelling with Code Spell Checker
+  "cSpell.language": "en",
+
+  // Additional dictionary for Code Spell Checker
+  "cSpell.words": ["antd", "reduxjs"],
+
+  // Highlighting words TODO
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "white",
+      "border": "1px solid white",
+      "backgroundColor": "rgba(46,24,83,0.5)",
+      "isWholeLine": true
+    }
+  ]
+}
