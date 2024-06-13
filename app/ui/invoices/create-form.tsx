@@ -9,6 +9,8 @@ import {
 import { Button } from '@/app/ui/button';
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
+  console.log('Form render');
+
   return (
     <form>
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
