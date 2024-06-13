@@ -10,6 +10,7 @@ const EditInvoicePage = async ({ params }: { params: { id: string } }) => {
   ]);
 
   if (!invoice) {
+    // That's something to keep in mind, notFound will take precedence over error.tsx, so you can reach out for it when you want to handle more specific errors!
     notFound();
   }
 
